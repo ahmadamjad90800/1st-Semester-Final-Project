@@ -143,7 +143,7 @@ int main()
                 << "   |   |\n"
                 << "  / \\  |\n"
                 << "=========\n";
-               
+            system("pause");
             break;
         }
 
@@ -203,6 +203,8 @@ int main()
         cout<<word[i];
     }
     }
+    system("pause");
+    return 0;
 }
 
 void PrintHangman(int numberOfGuesses)
